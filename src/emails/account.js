@@ -16,7 +16,7 @@ const sendCancelationEmail = (email, name) => {
     to: email,
     from: "vikram@vviwsglobaltrade.com",
     subject: "Sorry to see you go",
-    text: `Goodbye, ${name}. I hope to see you back sometime soon`,
+    text: `Goodbye, ${name}. I hope to see you back sometime soon.`,
   });
 };
 
